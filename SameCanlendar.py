@@ -2,6 +2,7 @@
 
 import calendar
 import datetime
+import locale
 
 
 # get all lucky years in 200 years
@@ -27,8 +28,15 @@ def main():
     years_before = ', '.join([str(year) for year in lucky_years if year < this_year])
     years_after = ', '.join([str(year) for year in lucky_years if year > this_year])
 
-    print(f'\nCongrats! You can reuse your {this_year} calendar in {years_after}.')
-    print(f'\nWait... BTW, You can reuse your {years_before} calendars this year.')
+    sys_language,_ = locale.getdefaultlocale() # get system default language
+
+    if sys_language == 'zh_CN':
+        print(f'\n恭喜! 你 {this_year} 年的日历可以在 {years_after} 年重复利用哦。')
+        print(f'\n稍等... 其实你 {years_before} 年的日历都还可以拿来在今年用呢。')
+        
+    else:
+        print(f'\nCongrats! You can reuse your {this_year} calendar in {years_after}.')
+        print(f'\nWait... BTW, You can reuse your {years_before} calendars this year.')
 
     return
 
