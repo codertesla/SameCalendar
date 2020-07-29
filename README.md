@@ -2,7 +2,7 @@
 
 Find years in the future resue this year's calendar.
 
-[Python 3.7](https://img.shields.io/badge/python-v3.7-blue)
+![Python 3.7](https://img.shields.io/badge/python-v3.7-blue)
 
 
 There's a rumor says that:
@@ -27,7 +27,7 @@ python3 SameCanlendar.py
 
 ---
 
-# 重复利用日历检测工具
+# 重复日历年份检测工具
 
 
 帮你检查未来的哪些年份还可以重复使用今年的日历。
