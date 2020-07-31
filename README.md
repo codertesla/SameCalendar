@@ -24,6 +24,8 @@ This tool will give you the answer.
 python3 SameCanlendar.py
 ```
 
+## Author
+SameCalendar @[CoderTesla](https://github.com/codertesla) , Released under the MIT License.
 
 ---
 
@@ -54,3 +56,5 @@ python3 SameCanlendar.py
 python3 SameCanlendar.py
 ```
 
+## 作者
+SameCalendar @[CoderTesla](https://github.com/codertesla) , 遵循 MIT 开源协议。
